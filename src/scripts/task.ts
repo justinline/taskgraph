@@ -4,6 +4,10 @@ template.innerHTML = `
 <span id="name"></span>`;
 
 export class Task extends HTMLElement {
+  static get observedAttributes() {
+    return ["name", "status"];
+  }
+
   constructor() {
     super();
 
@@ -11,8 +15,12 @@ export class Task extends HTMLElement {
     this.shadowRoot!.appendChild(template.content.cloneNode(true));
   }
 
-  connectedCallback() {
-    const name = this.getAttribute("name");
-    if (name) this.shadowRoot!.getElementById("name")!.textContent = name;
+  attributeChangedCallback(
+    attrName: string,
+    oldValue: string | null,
+    newValue: string | null
+  ) {
+    if (attrName === "name" && newValue)
+      this.shadowRoot!.getElementById("name")!.textContent = newValue;
   }
 }
