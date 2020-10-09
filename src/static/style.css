@@ -4,7 +4,12 @@
     format("truetype");
 }
 
-* {
+html,
+body,
+h1,
+ul,
+li,
+p {
   margin: 0;
   padding: 0;
 }
