@@ -50,8 +50,9 @@ const itemsContainer = getElementById("itemsContainer");
 
 const arrows = getElementById("arrows");
 
+const isTask = (e: HTMLElement) => e.tagName === "TG-TASK";
+
 function getTasks(): HTMLTaskElement[] {
-  const isTask = (e: HTMLElement) => e.classList.contains("task");
   const elements = Array.from(itemsContainer.children) as HTMLElement[];
   return elements.filter(isTask) as HTMLTaskElement[];
 }
@@ -102,7 +103,6 @@ export function addTask(task: AddTask) {
   htmlTask.setAttribute("name", task.name);
   if (task.status) htmlTask.setAttribute("status", task.status);
 
-  htmlTask.classList.add("task");
   htmlTask.textContent = task.name;
   htmlTask.from = [];
   htmlTask.to = [];
@@ -322,7 +322,7 @@ export function initGraph() {
     event.preventDefault();
     let moved = false;
     const target = event.target;
-    if (!target || !(target as HTMLElement).classList.contains("task")) {
+    if (!target || !isTask(target as HTMLElement)) {
       resetSelected();
       sendSelectionChanged([]);
       onGraphDragStart(event);
