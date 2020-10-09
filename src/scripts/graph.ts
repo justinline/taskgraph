@@ -97,13 +97,15 @@ interface AddTask extends Partial<Task> {
 
 export function addTask(task: AddTask) {
   const htmlTask = (document.createElement(
-    "div"
+    "tg-task"
   ) as unknown) as HTMLTaskElement;
+  htmlTask.setAttribute("name", task.name);
+  if (task.status) htmlTask.setAttribute("status", task.status);
+
   htmlTask.classList.add("task");
   htmlTask.textContent = task.name;
   htmlTask.from = [];
   htmlTask.to = [];
-  if (task.status === "completed") htmlTask.classList.add("completed");
   itemsContainer.appendChild(htmlTask);
   const pos = task.pos ? task.pos : computeCenteredPos(htmlTask);
   htmlTask.style.left = pos.x + "px";
@@ -173,7 +175,10 @@ export function deleteSelected() {
 
 export function completeSelected() {
   const selected = getSelected();
-  selected.forEach((task) => task.classList.toggle("completed"));
+  selected.forEach((task) => {
+    const status = task.getAttribute("status");
+    task.setAttribute("status", status === "completed" ? "todo" : "completed");
+  });
 }
 
 function onTaskClicked(task: HTMLTaskElement, event: MouseEvent) {
@@ -222,7 +227,7 @@ export function getGraph() {
     return {
       name: e.textContent,
       pos: { x: bb.left, y: bb.top },
-      status: e.classList.contains("completed") ? "completed" : "todo",
+      status: e.getAttribute("status") === "completed" ? "completed" : "todo",
     };
   });
   const dependenciesHtml = getDependencies();
