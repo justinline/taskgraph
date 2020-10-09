@@ -11,6 +11,9 @@ import {
   selectAll,
 } from "./graph.js";
 
+import { Task } from "./task.js";
+customElements.define("tg-task", Task);
+
 import { getElementById } from "./misc.js";
 
 function downloadFile(
