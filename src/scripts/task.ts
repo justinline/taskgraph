@@ -1,3 +1,5 @@
+import { HTMLDependencyElement } from "graph.js";
+
 const template = document.createElement("template");
 template.innerHTML = `
 <style>
@@ -48,11 +50,21 @@ export class Task extends HTMLElement {
     return ["name", "status"];
   }
 
+  from: HTMLDependencyElement[];
+  to: HTMLDependencyElement[];
+
   constructor() {
     super();
 
     this.attachShadow({ mode: "open" });
     this.shadowRoot!.appendChild(template.content.cloneNode(true));
+
+    this.from = [];
+    this.to = [];
+  }
+
+  get name() {
+    return this.getAttribute("name");
   }
 
   attributeChangedCallback(

@@ -14,14 +14,11 @@ import {
   querySelector,
 } from "./misc.js";
 
-interface HTMLTaskElement extends HTMLElement {
-  from: HTMLDependencyElement[];
-  to: HTMLDependencyElement[];
-}
+import { Task as TaskComponent } from "./task.js";
 
-interface HTMLDependencyElement extends HTMLElement {
-  from: HTMLTaskElement;
-  to: HTMLTaskElement;
+export interface HTMLDependencyElement extends HTMLElement {
+  from: TaskComponent;
+  to: TaskComponent;
 }
 
 interface Task {
@@ -52,9 +49,9 @@ const arrows = getElementById("arrows");
 
 const isTask = (e: HTMLElement) => e.tagName === "TG-TASK";
 
-function getTasks(): HTMLTaskElement[] {
+function getTasks(): TaskComponent[] {
   const elements = Array.from(itemsContainer.children) as HTMLElement[];
-  return elements.filter(isTask) as HTMLTaskElement[];
+  return elements.filter(isTask) as TaskComponent[];
 }
 
 function getDependencies(): HTMLDependencyElement[] {
@@ -97,15 +94,10 @@ interface AddTask extends Partial<Task> {
 }
 
 export function addTask(task: AddTask) {
-  const htmlTask = (document.createElement(
-    "tg-task"
-  ) as unknown) as HTMLTaskElement;
+  const htmlTask = document.createElement("tg-task") as TaskComponent;
   htmlTask.setAttribute("name", task.name);
   if (task.status) htmlTask.setAttribute("status", task.status);
 
-  htmlTask.textContent = task.name;
-  htmlTask.from = [];
-  htmlTask.to = [];
   itemsContainer.appendChild(htmlTask);
   const pos = task.pos ? task.pos : computeCenteredPos(htmlTask);
   htmlTask.style.left = pos.x + "px";
@@ -119,9 +111,7 @@ function addDependency(dependency: Dependency) {
     "path"
   ) as unknown) as HTMLDependencyElement;
   const tasks = getTasks();
-  const predecessor = tasks.find(
-    (task) => task.textContent == dependency.predecessor
-  );
+  const predecessor = tasks.find((task) => task.name == dependency.predecessor);
   if (!predecessor) {
     console.error(
       "Could not add dependency: predecessor not found",
@@ -129,9 +119,7 @@ function addDependency(dependency: Dependency) {
     );
     return;
   }
-  const successor = tasks.find(
-    (task) => task.textContent == dependency.successor
-  );
+  const successor = tasks.find((task) => task.name == dependency.successor);
   if (!successor) {
     console.error("Could not add dependency: successor not found.", dependency);
     return;
@@ -147,7 +135,7 @@ function addDependency(dependency: Dependency) {
   updatePath(dependencyHtml);
 }
 
-function deleteTask(task: HTMLTaskElement) {
+function deleteTask(task: TaskComponent) {
   const from = task.from.slice();
   from.forEach(deleteDependency);
   const to = task.to.slice();
@@ -181,7 +169,7 @@ export function completeSelected() {
   });
 }
 
-function onTaskClicked(task: HTMLTaskElement, event: MouseEvent) {
+function onTaskClicked(task: TaskComponent, event: MouseEvent) {
   if (event.shiftKey) {
     task.classList.toggle("selected");
     sendSelectionChanged();
@@ -196,7 +184,7 @@ function onTaskClicked(task: HTMLTaskElement, event: MouseEvent) {
  * sends out a "selectionchanged" event
  * @param {[HTMLElement]} selection if known by the caller, passthrough
  */
-function sendSelectionChanged(selection?: HTMLTaskElement[]) {
+function sendSelectionChanged(selection?: TaskComponent[]) {
   graphContainer.dispatchEvent(
     new CustomEvent("selectionchanged", {
       detail: selection ? selection : getSelected(),
@@ -205,7 +193,7 @@ function sendSelectionChanged(selection?: HTMLTaskElement[]) {
 }
 
 function getSelected() {
-  const isSelected = (e: HTMLTaskElement) => e.classList.contains("selected");
+  const isSelected = (e: TaskComponent) => e.classList.contains("selected");
   return getTasks().filter(isSelected);
 }
 
@@ -225,15 +213,15 @@ export function getGraph() {
   const tasks = tasksHtml.map((e) => {
     const bb = getOffsetBox(e);
     return {
-      name: e.textContent,
+      name: e.name,
       pos: { x: bb.left, y: bb.top },
       status: e.getAttribute("status") === "completed" ? "completed" : "todo",
     };
   });
   const dependenciesHtml = getDependencies();
   const dependencies = dependenciesHtml.map((e) => ({
-    predecessor: e.from.textContent,
-    successor: e.to.textContent,
+    predecessor: e.from.name,
+    successor: e.to.name,
   }));
   return { tasks, dependencies };
 }
@@ -310,7 +298,7 @@ function setupZoom() {
   };
 }
 
-function moveTask(task: HTMLTaskElement, pos: Point) {
+function moveTask(task: TaskComponent, pos: Point) {
   task.style.left = pos.x + "px";
   task.style.top = pos.y + "px";
   for (const path of [...task.from, ...task.to]) updatePath(path);
@@ -328,7 +316,7 @@ export function initGraph() {
       onGraphDragStart(event);
       return;
     }
-    const task = target as HTMLTaskElement;
+    const task = target as TaskComponent;
     const pointerId = event.pointerId;
     itemsContainer.setPointerCapture(pointerId);
     const initialPosition = { x: event.clientX, y: event.clientY };
@@ -362,7 +350,7 @@ export function initGraph() {
           arrows.removeChild(path);
           return;
         }
-        const targetTask = target as HTMLTaskElement;
+        const targetTask = target as TaskComponent;
         path.to = targetTask;
         task.from.push(path);
         targetTask.to.push(path);
