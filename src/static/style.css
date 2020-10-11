@@ -46,15 +46,6 @@ tg-task.dragged {
   z-index: 1;
 }
 
-@keyframes strikethrough {
-  from {
-    right: 100%;
-  }
-  to {
-    right: 0%;
-  }
-}
-
 #arrows {
   position: absolute;
   left: 0;
