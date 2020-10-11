@@ -38,6 +38,15 @@ template.innerHTML = `
   animation: 1s ease-in-out strikethrough;
   border-radius: calc(var(--thickness) / 2);
 }
+
+@keyframes strikethrough {
+  from {
+    right: 100%;
+  }
+  to {
+    right: 0%;
+  }
+}
 </style>
 <span id="name"></span>`;
 
