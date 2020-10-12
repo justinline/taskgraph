@@ -4,8 +4,8 @@ export function querySelector(selectors: string): Element {
   return element;
 }
 
-export function getElementById(id: string): HTMLElement {
-  const element = document.getElementById(id);
+export function getElementById(id: string, dom = document): HTMLElement {
+  const element = dom.getElementById(id);
   if (!element) throw Error(`HTML Element ${id} was not found!`);
   return element;
 }

@@ -1,15 +1,7 @@
 "use strict";
 
-import {
-  initGraph,
-  loadGraph,
-  getGraph,
-  addTask,
-  deleteSelected,
-  clearGraph,
-  completeSelected,
-  selectAll,
-} from "./graph.js";
+import { Graph } from "./graph.js";
+customElements.define("tg-graph", Graph);
 
 import { Task } from "./task.js";
 customElements.define("tg-task", Task);
@@ -33,13 +25,15 @@ function downloadFile(
   document.body.removeChild(element);
 }
 
+const graph = document.querySelector("tg-graph") as Graph;
+
 function saveToLocalStorage() {
-  const graph = getGraph();
+  const graphData = graph.getGraph();
   window.localStorage.setItem("graph", JSON.stringify(graph));
 }
 
 function saveToFile() {
-  const graph = getGraph();
+  const graphData = graph.getGraph();
   downloadFile(
     "graph.json",
     JSON.stringify(graph, null, 2),
@@ -50,8 +44,8 @@ function saveToFile() {
 function loadFromLocalStorage() {
   const graphItem = window.localStorage.getItem("graph");
   if (!graphItem) return;
-  const graph = JSON.parse(graphItem);
-  loadGraph(graph);
+  const graphData = JSON.parse(graphItem);
+  graph.loadGraph(graphData);
 }
 
 function loadFromFile() {
@@ -83,7 +77,7 @@ function setupMenubar() {
     const reader = new FileReader();
     reader.addEventListener("load", () => {
       const result = reader.result as string;
-      loadGraph(JSON.parse(result));
+      graph.loadGraph(JSON.parse(result));
       saveToLocalStorage();
     });
     reader.readAsText(file);
@@ -101,7 +95,7 @@ function setupMenubar() {
 
   const menubarNewGraphButton = getElementById("menubarNewGraphButton");
   menubarNewGraphButton.addEventListener("click", () => {
-    clearGraph();
+    graph.clearGraph();
     closeMenubar();
   });
 }
@@ -114,12 +108,12 @@ function setupToolbar() {
   };
 
   getElementById("deleteTaskButton").addEventListener("click", () => {
-    deleteSelected();
+    graph.deleteSelected();
     saveToLocalStorage();
   });
 
   getElementById("completeTaskButton").addEventListener("click", () => {
-    completeSelected();
+    graph.completeSelected();
     saveToLocalStorage();
   });
 }
@@ -147,7 +141,7 @@ function setupNewTask() {
   newTask.onkeypress = (event) => {
     if (event.key == "Enter") {
       if (newTask.value) {
-        addTask({ name: newTask.value });
+        graph.addTask({ name: newTask.value });
         saveToLocalStorage();
       }
       stopNewTask();
@@ -160,7 +154,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
   setupToolbar();
   setupNewTask();
 
-  const graph = getElementById("graph");
   graph.addEventListener("taskmoved", saveToLocalStorage);
   graph.addEventListener("newdependency", saveToLocalStorage);
   graph.addEventListener("selectionchanged", function (event) {
@@ -173,7 +166,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     if (newTask.style.display === "block") return;
     switch (event.key) {
       case "a":
-        if (event.ctrlKey) selectAll();
+        if (event.ctrlKey) graph.selectAll();
         break;
       case "i":
         newTask.style.display = "block";
@@ -181,7 +174,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         break;
       case "d":
       case "Delete":
-        deleteSelected();
+        graph.deleteSelected();
         saveToLocalStorage();
         break;
       case "o":
@@ -192,8 +185,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
         break;
     }
   };
-
-  initGraph();
 
   loadFromLocalStorage();
 });
