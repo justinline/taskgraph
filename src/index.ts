@@ -9,9 +9,9 @@ import {
   clearGraph,
   completeSelected,
   selectAll,
-} from "./graph.js";
+} from "./scripts/graph.js";
 
-import { getElementById } from "./misc.js";
+import { getElementById } from "./scripts/misc.js";
 
 function downloadFile(
   filename: string,

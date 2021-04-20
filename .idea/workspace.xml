@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a8da9e06-dbe1-408f-a6f2-5d66a9b74ab0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.nojekyll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/Brown-Paper.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/Brown-Paper.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/activity.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/activity.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/airplay.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/airplay.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/alert-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/alert-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/alert-octagon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/alert-octagon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/alert-triangle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/alert-triangle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/align-center.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/align-center.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/align-justify.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/align-justify.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/align-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/align-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/align-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/align-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/anchor.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/anchor.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/aperture.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/aperture.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/archive.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/archive.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/arrow-down-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/arrow-down-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/arrow-down-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/arrow-down-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/arrow-down-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/arrow-down-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/arrow-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/arrow-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/arrow-left-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/arrow-left-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/arrow-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/arrow-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/arrow-right-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/arrow-right-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/arrow-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/arrow-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/arrow-up-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/arrow-up-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/arrow-up-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/arrow-up-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/arrow-up-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/arrow-up-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/arrow-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/arrow-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/at-sign.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/at-sign.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/award.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/award.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/bar-chart-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/bar-chart-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/bar-chart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/bar-chart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/battery-charging.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/battery-charging.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/battery.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/battery.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/bell-off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/bell-off.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/bell.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/bell.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/bluetooth.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/bluetooth.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/bold.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/bold.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/book-open.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/book-open.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/book.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/book.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/bookmark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/bookmark.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/box.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/box.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/briefcase.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/briefcase.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/calendar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/camera-off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/camera-off.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/camera.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/camera.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/cast.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/cast.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/check-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/check-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/check-square.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/check-square.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/check.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/check.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/chevron-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/chevron-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/chevron-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/chevron-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/chevron-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/chevron-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/chevron-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/chevron-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/chevrons-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/chevrons-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/chevrons-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/chevrons-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/chevrons-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/chevrons-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/chevrons-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/chevrons-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/chrome.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/chrome.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/clipboard.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/clipboard.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/clock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/clock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/cloud-drizzle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/cloud-drizzle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/cloud-lightning.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/cloud-lightning.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/cloud-off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/cloud-off.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/cloud-rain.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/cloud-rain.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/cloud-snow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/cloud-snow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/cloud.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/cloud.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/code.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/code.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/codepen.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/codepen.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/codesandbox.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/codesandbox.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/coffee.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/coffee.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/columns.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/columns.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/command.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/command.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/compass.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/compass.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/copy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/copy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/corner-down-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/corner-down-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/corner-down-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/corner-down-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/corner-left-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/corner-left-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/corner-left-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/corner-left-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/corner-right-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/corner-right-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/corner-right-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/corner-right-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/corner-up-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/corner-up-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/corner-up-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/corner-up-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/cpu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/cpu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/credit-card.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/credit-card.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/crop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/crop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/crosshair.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/crosshair.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/database.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/database.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/delete.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/disc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/disc.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/dollar-sign.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/dollar-sign.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/download-cloud.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/download-cloud.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/download.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/download.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/droplet.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/droplet.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/edit-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/edit-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/edit-3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/edit-3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/edit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/edit.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/external-link.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/external-link.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/eye-off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/eye-off.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/eye.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/eye.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/facebook.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/fast-forward.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/fast-forward.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/feather.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/feather.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/figma.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/figma.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/file-minus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/file-minus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/file-plus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/file-plus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/file-text.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/file-text.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/file.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/file.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/film.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/film.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/filter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/filter.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/flag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/flag.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/folder-minus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/folder-minus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/folder-plus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/folder-plus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/folder.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/folder.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/framer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/framer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/frown.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/frown.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/gift.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/gift.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/git-branch.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/git-branch.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/git-commit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/git-commit.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/git-merge.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/git-merge.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/git-pull-request.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/git-pull-request.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/github.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/github.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/gitlab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/gitlab.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/globe.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/globe.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/grid.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/grid.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/hard-drive.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/hard-drive.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/hash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/hash.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/headphones.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/headphones.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/heart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/heart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/help-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/help-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/hexagon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/hexagon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/home.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/home.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/image.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/image.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/inbox.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/inbox.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/info.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/info.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/instagram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/italic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/italic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/key.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/key.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/layers.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/layers.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/layout.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/layout.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/life-buoy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/life-buoy.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/link-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/link-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/link.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/link.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/linkedin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/linkedin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/list.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/list.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/loader.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/loader.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/lock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/lock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/log-in.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/log-in.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/log-out.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/log-out.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/mail.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/mail.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/map-pin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/map-pin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/map.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/map.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/maximize-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/maximize-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/maximize.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/maximize.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/meh.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/meh.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/menu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/menu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/message-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/message-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/message-square.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/message-square.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/mic-off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/mic-off.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/mic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/mic.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/minimize-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/minimize-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/minimize.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/minimize.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/minus-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/minus-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/minus-square.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/minus-square.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/minus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/minus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/monitor.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/monitor.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/moon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/moon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/more-horizontal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/more-horizontal.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/more-vertical.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/more-vertical.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/mouse-pointer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/mouse-pointer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/move.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/move.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/music.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/music.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/navigation-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/navigation-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/navigation.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/navigation.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/octagon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/octagon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/package.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/package.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/paperclip.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/paperclip.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/pause-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/pause-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/pause.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/pause.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/pen-tool.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/pen-tool.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/percent.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/percent.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/phone-call.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/phone-call.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/phone-forwarded.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/phone-forwarded.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/phone-incoming.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/phone-incoming.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/phone-missed.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/phone-missed.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/phone-off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/phone-off.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/phone-outgoing.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/phone-outgoing.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/phone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/phone.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/pie-chart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/pie-chart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/play-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/play-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/play.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/play.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/plus-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/plus-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/plus-square.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/plus-square.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/plus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/plus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/pocket.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/pocket.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/power.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/power.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/printer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/printer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/radio.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/radio.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/refresh-ccw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/refresh-ccw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/refresh-cw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/refresh-cw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/repeat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/repeat.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/rewind.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/rewind.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/rotate-ccw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/rotate-ccw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/rotate-cw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/rotate-cw.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/rss.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/rss.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/save.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/save.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/scissors.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/scissors.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/send.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/send.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/server.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/server.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/settings.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/settings.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/share-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/share-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/share.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/share.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/shield-off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/shield-off.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/shield.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/shield.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/shopping-bag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/shopping-bag.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/shopping-cart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/shopping-cart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/shuffle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/shuffle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/sidebar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/sidebar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/skip-back.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/skip-back.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/skip-forward.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/skip-forward.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/slack.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/slack.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/slash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/slash.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/sliders.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/sliders.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/smartphone.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/smartphone.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/smile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/smile.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/speaker.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/speaker.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/square.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/square.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/stop-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/stop-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/sun.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/sun.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/sunrise.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/sunrise.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/sunset.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/sunset.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/tablet.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/tablet.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/tag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/tag.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/target.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/target.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/terminal.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/terminal.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/thermometer.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/thermometer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/thumbs-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/thumbs-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/thumbs-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/thumbs-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/toggle-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/toggle-left.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/toggle-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/toggle-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/tool.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/tool.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/trash-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/trash-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/trash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/trash.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/trello.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/trello.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/trending-down.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/trending-down.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/trending-up.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/trending-up.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/triangle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/triangle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/truck.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/truck.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/tv.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/tv.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/twitch.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/twitch.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/twitter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/twitter.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/type.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/type.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/umbrella.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/umbrella.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/underline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/underline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/unlock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/unlock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/upload-cloud.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/upload-cloud.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/upload.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/upload.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/user-check.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/user-check.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/user-minus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/user-minus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/user-plus.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/user-plus.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/user-x.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/user-x.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/user.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/user.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/users.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/users.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/video-off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/video-off.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/video.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/video.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/voicemail.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/voicemail.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/volume-1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/volume-1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/volume-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/volume-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/volume-x.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/volume-x.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/volume.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/volume.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/watch.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/watch.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/wifi-off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/wifi-off.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/wifi.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/wifi.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/wind.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/wind.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/x-circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/x-circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/x-octagon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/x-octagon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/x-square.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/x-square.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/x.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/x.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/youtube.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/youtube.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/zap-off.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/zap-off.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/zap.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/zap.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/zoom-in.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/zoom-in.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/feather/zoom-out.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/feather/zoom-out.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/fonts/PermanentMarker/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/fonts/PermanentMarker/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/resources/fonts/PermanentMarker/PermanentMarker-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/resources/fonts/PermanentMarker/PermanentMarker-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rRn5n3w0MJBIfOrKX1CsR4aXnK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/static" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8da9e06-dbe1-408f-a6f2-5d66a9b74ab0" name="Default Changelist" comment="" />
+      <created>1618947590117</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618947590117</updated>
+      <workItem from="1618947591749" duration="2289000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="692" y="420" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1618949843696">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="692" y="420" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.1177@0.23.1920.1177" timestamp="1618949843696" />
+    <state x="100" y="123" width="1720" height="977" key="DiffContextDialog" timestamp="1618949639309">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="100" y="123" width="1720" height="977" key="DiffContextDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1618949639309" />
+    <state x="661" y="366" width="598" height="490" key="find.popup" timestamp="1618949009344">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="661" y="366" width="598" height="490" key="find.popup/0.23.1920.1177@0.23.1920.1177" timestamp="1618949009344" />
+  </component>
+</project>
