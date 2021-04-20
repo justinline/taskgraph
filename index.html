@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TaskGraph</title>
+    <link rel="stylesheet" type="text/css" href="/taskgraph/style.css" />
+  </head>
+  <body>
+    <button id="menubarOpenButton" class="iconButton"></button>
+    <aside id="menubar">
+      <h1>TaskGraph</h1>
+      <button id="menubarCloseButton" class="iconButton"></button>
+      <ul>
+        <li><button id="menubarSaveButton">Save</button></li>
+        <li><button id="menubarLoadButton">Load</button></li>
+        <li><input id="fileInput" type="file" accept="text/json" /></li>
+        <li><button id="menubarNewGraphButton">New Graph</button></li>
+      </ul>
+      <a
+        id="githubLink"
+        href="https://github.com/etrobert/taskgraph"
+        rel="noreferrer noopener"
+        target="_blank"
+      ></a>
+      <p>
+        Made by
+        <a href="mailto:etiennerobert33@gmail.com" target="_blank"
+          >Etienne Robert</a
+        >
+      </p>
+    </aside>
+    <div id="toolbar">
+      <button id="deleteTaskButton" class="iconButton"></button>
+      <label id="linkModeCheckbox">
+        <input type="checkbox" />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="feather feather-link"
+        >
+          <path
+            d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+          ></path>
+          <path
+            d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+          ></path>
+        </svg>
+      </label>
+      <button id="completeTaskButton" class="iconButton"></button>
+      <button id="createTaskButton" class="iconButton"></button>
+    </div>
+    <div id="graph">
+      <p id="zoomIndicator"></p>
+      <div id="itemsContainer">
+        <svg id="arrows">
+          <defs>
+            <marker
+              id="Triangle"
+              viewBox="0 0 5 5"
+              refX="2"
+              refY="2.5"
+              markerWidth="2"
+              markerHeight="2"
+              orient="auto"
+            >
+              <path
+                d="M 0 0 L 5 2.5 L 0 5 z"
+                class="link-arrow-triangle-path"
+              />
+            </marker>
+          </defs>
+        </svg>
+      </div>
+    </div>
+    <input id="newTask" type="text" />
+    <script src="/taskgraph/dist/index.js" type="module"></script>
+  </body>
+</html>

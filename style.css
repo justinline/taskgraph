@@ -1,0 +1,246 @@
+@font-face {
+  font-family: "PermanentMarker";
+  src: url("resources/fonts/PermanentMarker/PermanentMarker-Regular.ttf")
+    format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  touch-action: none;
+}
+
+#graph {
+  height: 100%;
+  background-color: #ccc;
+  overflow: hidden;
+}
+
+#zoomIndicator {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.task {
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  border-radius: 3px;
+  background-color: #ddd;
+  padding: 0.2em 0.4em;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: box-shadow 0.2s ease;
+
+  position: absolute;
+  font-family: "PermanentMarker";
+  font-size: 2em;
+  line-height: 1em; /* ensure that the bounding box is not too high */
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.task:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.selected {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background-color: aquamarine;
+}
+
+.task.dragged {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  z-index: 1;
+}
+
+.task.completed {
+  opacity: 25%;
+}
+
+.task.completed::before {
+  content: "";
+  position: absolute;
+  --thickness: 0.2em;
+  height: var(--thickness);
+  top: calc(50% + var(--thickness) / 2);
+  left: 0;
+  right: 0;
+  background-color: black;
+  animation: 1s ease-in-out strikethrough;
+  border-radius: calc(var(--thickness) / 2);
+}
+
+@keyframes strikethrough {
+  from {
+    right: 100%;
+  }
+  to {
+    right: 0%;
+  }
+}
+
+#arrows {
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: visible;
+}
+
+#arrows > path {
+  stroke: black;
+  stroke-width: 6px;
+  stroke-linecap: round;
+  marker-end: url(#Triangle);
+}
+
+#newTask {
+  display: none;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1.5em;
+  top: calc(50% - (1.5em / 2));
+  margin: auto;
+
+  width: 80vw;
+  padding: 1em;
+
+  opacity: 80%;
+
+  font-family: "PermanentMarker";
+  font-size: 1.5em;
+}
+
+#toolbar {
+  padding: 2em;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+#toolbar button {
+  width: 4em;
+  height: 4em;
+}
+
+.iconButton {
+  background-size: contain;
+  background-color: transparent;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+#linkModeCheckbox svg {
+  width: 4em;
+  height: 4em;
+}
+
+#linkModeCheckbox input:checked + svg {
+  border-bottom: 0.2rem solid;
+}
+
+#linkModeCheckbox input {
+  display: none;
+}
+
+#deleteTaskButton {
+  background-image: url("resources/feather/trash-2.svg");
+}
+
+#completeTaskButton {
+  background-image: url("resources/feather/check-circle.svg");
+}
+
+#createTaskButton {
+  background-image: url("resources/feather/plus-circle.svg");
+}
+
+#menubar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #f9f9f9;
+  z-index: 2;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  row-gap: 2em;
+
+  padding: 2em;
+
+  transform: translate(-100%);
+}
+
+#menubarCloseButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2.1rem;
+  height: 2.1rem;
+  margin: 1rem;
+  background-image: url("resources/feather/x.svg");
+}
+
+#menubar ul {
+  list-style: none;
+}
+
+h1 {
+  font-family: "PermanentMarker";
+  font-size: 3rem;
+}
+
+#menubar.active {
+  transform: translate(0);
+  box-shadow: 0.2rem 0 1rem rgba(0, 0, 0, 0.5);
+}
+
+#menubar button {
+  border: none;
+  background-color: transparent;
+}
+
+#menubar button:hover {
+  text-decoration: underline;
+}
+
+#menubarOpenButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.1rem;
+  height: 2.1rem;
+  margin-left: 1rem;
+  margin-top: 0.8rem;
+  z-index: 1;
+  background-image: url("resources/feather/menu.svg");
+}
+
+#fileInput {
+  display: none;
+}
+
+#githubLink {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-size: contain;
+  background-image: url("resources/feather/github.svg");
+}
